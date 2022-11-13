@@ -48,6 +48,7 @@ a{
 main{
     width: 100%;
    display: flex;
+   
 }
 .container{
     
@@ -71,7 +72,7 @@ main{
 } */
  
 .booking{
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .booking button{
    
@@ -158,10 +159,13 @@ line-height: 143%;
 
 }
 .products{
+
      
   box-shadow: 10px 10px 10px #aaaaaa;
   border: 1px solid #BFBFBF;
-  background-color: white
+  background-color: white;
+  padding-left: 10px;
+  
 }
 .see-more{
     margin-top: 50px;
@@ -199,7 +203,7 @@ line-height: 143%;
     height: 100px;
 }
 .feature-image img{
-    width: 250px;
+    width: 200px;
     height: 100px;
     margin-right: 50px;
 
@@ -238,3 +242,86 @@ line-height: 143%;
    
 }
  
+@media screen and (max-width:577px) {
+    
+    
+    .navbar{
+        flex-direction: column;
+        width: 100%;
+        
+        
+        
+         
+    }
+    .navigation{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 150px;
+        row-gap: 10px;
+         
+
+    }
+
+    main{
+        flex-direction: column-reverse;
+    }
+    .title-picture img{
+        width: 100%;
+        height: auto;
+    }
+
+    
+   
+   .products-image{
+    width: 100%;
+    display: grid;
+ 
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 30px;
+   
+    }
+    .products img{
+    width: 100%;
+    }
+    .footer{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: auto;
+   
+    }
+    .see-more{
+    margin-left: 0px;
+    width: 100%;
+    }
+    .feature{
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: left;
+    row-gap: 10px;
+    margin-left: 0px;
+    }
+ 
+    
+    .feature-image img{
+    width: 100%;
+    
+    
+    
+    }
+    .bottom-footer{
+    width:100%;
+    margin-top: 50px;
+    display: flex;
+    
+   
+    }
+    .last-content{
+     margin-left: 0px;
+    }
+
+    
+}

@@ -1,0 +1,240 @@
+/* navigation top  */
+/* font family  */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ 
+ 
+
+ 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.content-title{
+    margin-top: 0px;
+    margin-left: 120px;
+}
+.content-title p{
+    margin-top: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+
+     
+
+
+}
+/* top navigation decoration  */
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+ 
+    text-align: left;
+
+}
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+/* content  */
+main{
+    width: 100%;
+   display: flex;
+}
+.container{
+    
+ 
+    display: flex;
+    flex-direction: column;
+
+}
+.title-content{
+    width: 50%;
+ 
+    height: 100px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+
+    
+}
+/* .title-content a{
+    font-size: 12px;
+
+} */
+ 
+.booking{
+    margin-top: 100px;
+}
+.booking button{
+   
+    
+    background-color:  #E02C6D;
+    width: 116px;
+    height: 24px;
+     
+     
+    color: white;
+    margin-top: 60px;
+    margin-left: 120px;
+    border-radius: 41px;
+    font-size: 10px;
+    border: 0;
+}
+.title-picture{
+     
+    width: 50%;
+    height: 300px;
+   
+
+    background-image: url('/Influencer/images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.title-picture img{
+    width: 350px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 80px;
+   
+}
+.footer{
+    display: flex;
+    justify-items: center;
+    margin-top: 150px;
+  
+  
+    border-width: 5px;
+    border-style:solid transparent;
+    
+    
+     
+    
+    
+     
+   
+    margin-left: 100px;
+    border: sol;
+}
+.footer img{
+    width: 100px;
+    height: 20px;
+    margin-right: 16px;
+}
+/* products design  */
+section h2{
+    text-align: center;
+}
+
+.rating i{
+    color: #FB8200;
+    
+}
+.review{
+    color: #5E6366;
+
+}
+.details{
+    color: #787885;
+ 
+font-style: normal;
+ 
+font-size: 10px;
+line-height: 143%;
+
+}
+.products-image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+
+}
+.products{
+     
+  box-shadow: 10px 10px 10px #aaaaaa;
+  border: 1px solid #BFBFBF;
+  background-color: white
+}
+.see-more{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 700px;
+     
+    /* display: flex; */
+    /* justify-content: end; */
+    /* margin-left: 800px; */
+}
+.see-more a{
+    color: #E02C6DDE;
+    font-weight: 700;
+    
+     
+    font-size: 12px;
+    
+
+    
+
+}
+/* feature  */
+.feature{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    border: transparent;
+    width: 600px;
+    height: 200px;
+
+    
+    
+}
+.feature-content{
+    height: 100px;
+}
+.feature-image img{
+    width: 250px;
+    height: 100px;
+    margin-right: 50px;
+
+
+}
+.feature-content h3{
+    margin-top: 0;
+}
+.feature-content p{
+    font-size: 10px;
+    overflow-wrap: normal;
+}
+
+.feature-content button{
+    background-color:  #E02C6D;
+    color:white;
+    width: 100px;
+    height: 30px;
+    border: #E02C6D;
+    border-radius: 5px;
+    margin-left: 100px;
+  
+
+}
+.bottom-footer{
+    background: #0A0826;
+    justify-content: center;
+
+
+}
+.last-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    color: white;
+   
+}
+ 

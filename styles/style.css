@@ -53,9 +53,11 @@ main{
 .container{
     
  
-    display: flex;
-    flex-direction: column;
+    display: grid;
 
+    grid-template-columns: repeat(2,1fr);
+    
+    
 }
 .title-content{
     width: 50%;
@@ -71,9 +73,7 @@ main{
 
 } */
  
-.booking{
-    margin-top: 120px;
-}
+ 
 .booking button{
    
     
@@ -102,7 +102,7 @@ main{
 .title-picture img{
     width: 350px;
     height: 300px;
-    margin-top: 50px;
+   
     margin-left: 80px;
    
 }
@@ -110,19 +110,10 @@ main{
     display: flex;
     justify-items: center;
     margin-top: 150px;
-  
-  
     border-width: 5px;
     border-style:solid transparent;
-    
-    
-     
-    
-    
-     
-   
     margin-left: 100px;
-    border: sol;
+    
 }
 .footer img{
     width: 100px;
@@ -130,7 +121,7 @@ main{
     margin-right: 16px;
 }
 /* products design  */
-section h2{
+ h2{
     text-align: center;
 }
 
@@ -166,6 +157,10 @@ line-height: 143%;
   background-color: white;
   padding-left: 10px;
   
+  
+}
+.products image{
+    width: 100%;
 }
 .see-more{
     margin-top: 50px;
@@ -247,8 +242,8 @@ line-height: 143%;
     
     .navbar{
         flex-direction: column;
-        /* width: 100%;
-         */
+        width: 100%;
+        
         
         
          
@@ -262,9 +257,13 @@ line-height: 143%;
 
     }
 
-    main{
+    .container{
+        display: flex;
         flex-direction: column-reverse;
         width: 100%;
+    }
+    .booking{
+        margin-top: 120px;
     }
     .title-picture img{
         width: 100%;
